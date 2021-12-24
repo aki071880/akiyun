@@ -64,4 +64,8 @@ li{
     .a{
         text-align: left;
     }
+    .main{
+        padding: 0;
+        width: 100%;
+    }
 }
