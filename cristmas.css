@@ -50,13 +50,10 @@ li{
     }
     .menu{
         width: 100%;
+        flex-direction: column;
     }
     .menu-list{
         padding-top: 30px;
-    }
-    .main{
-        flex-direction: column;
-        padding: 0;
     }
     li{
         text-align: left;
