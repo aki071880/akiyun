@@ -51,5 +51,6 @@ li{
     }
     .main{
         flex-direction: column;
+	padding: 0;
     }
 }
