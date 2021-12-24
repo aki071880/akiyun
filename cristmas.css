@@ -1,1 +1,39 @@
+header{
+    background-image: url('https://github.com/aki071880/akiyun/blob/main/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9.jpeg?raw=true');
+    background-size: cover;
+    height: 300px;
+}
 
+.title{
+    text-align: center;
+    padding-top: 125px;
+    color: antiquewhite;
+}
+
+.main{
+    display: flex;
+    text-align: center;
+    padding: 50px;
+}
+
+.menu{
+    width: 30%;
+    align-items: flex-end;
+    text-align: center;
+    margin: 0 50px 0 50px;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+}
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    img{
+        width: 100%;
+    }
+    .main{
+        flex-direction: column;
+    }
+}
