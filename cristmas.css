@@ -47,7 +47,7 @@ li{
 @media screen and (max-width: 480px) {
 	/* 480px以下に適用されるCSS（スマホ用） */
     img{
-        width: 300px;
+        width: 200px;
     }
     .menu{
         width: 100%;
