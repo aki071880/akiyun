@@ -1,3 +1,6 @@
+body{
+    max-width: 1500px;
+}
 header{
     background-image: url('https://github.com/aki071880/akiyun/blob/main/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9.jpeg?raw=true');
     background-size: cover;
@@ -11,21 +14,31 @@ header{
 }
 
 .main{
+
     display: flex;
     text-align: center;
     padding: 50px;
+    background-color: rgb(166, 216, 166);
 }
 
-.menu{
+.menu-list{
     width: 30%;
     align-items: flex-end;
+    margin: 0 50px;
     text-align: center;
-    margin: 0 50px 0 50px;
+    
 }
 
 img{
+    display: block;
     width: 250px;
     height: 200px;
+}
+li{
+    text-align: left;
+}
+.a{
+    text-align: left;
 }
 
 @media screen and (max-width: 480px) {
