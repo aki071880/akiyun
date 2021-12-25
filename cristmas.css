@@ -16,7 +16,7 @@ header{
 .main{
     text-align: center;
     padding: 50px;
-    background-image: url('https://github.com/aki071880/akiyun/blob/main/istockphoto-1077177202-1024x1024.jpeg?raw=true');
+    background-color: rgb(166, 216, 166);
 }
 .menu{
     display: flex;
